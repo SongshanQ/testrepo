@@ -1,0 +1,5 @@
+#3.Copy and paste the following code to load the ggplot package and create a scatterplot of disp and mpg.
+#load ggplot package
+library(ggplot2)
+# create a scatterplot of displacement (disp) and miles per gallon (mpg)
+ggplot(aes(x=disp,y=mpg,),data=mtcars)+geom_point()
